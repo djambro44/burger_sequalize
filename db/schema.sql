@@ -1,10 +1,3 @@
-CREATE DATABASE burgers_db;
-USE burgers_db;
+CREATE DATABASE burgers_sequalize;
+USE burgers_sequalize;
 
-CREATE TABLE burgers
-(
-    id init NOT NULL AUTO_INCREMENT,
-    burger_name VARCHAR (50) NOT NULL,
-    devoured BOOLEAN DEFAULT false,
-    PRIMARY KEY (id)
-);
